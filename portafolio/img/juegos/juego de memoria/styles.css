@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+  } 
+    body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10%;
+    background: rgb(121,58,180);
+    background: linear-gradient(90deg, rgba(121,58,180,1) 0%, rgba(29,233,253,1) 50%, rgba(252,69,211,1) 100%);
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  .section1{
+    background-color: linear-gradient(90deg, rgba(121,58,180,1) 0%, rgba(29,233,253,1) 50%, rgba(252,69,211,1) 100%);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  /*.section1, .section2 {
+    margin: 10px 0;
+  }*/
+  
+  .grid {
+  background-color:linear-gradient(90deg, rgba(121,58,180,1) 0%, rgba(29,233,253,1) 50%, rgba(252,69,211,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+  }
+  
+  .carta {
+    width: 100px;
+    height: 100px;
+    background-color: #eaedec;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .estadisticas {
+    margin: 5px 0;
+  }
+  
+  footer .footer-bottom {
+    font-size: 0.9em;
+  }
+  /* Estilos para la sección */
+  .section2 {
+    background: #eac5e3;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilos para los encabezados */
+  .section2 .estadisticas {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Estilos para el botón */
+  #reiniciar {
+    background-color: #007bff;
+    color:wheat;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #reiniciar:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos específicos de NES.css (si estás usando la librería) */
+  .nes-btn.is-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .nes-btn.is-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
